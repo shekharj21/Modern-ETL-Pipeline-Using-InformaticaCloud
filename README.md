@@ -17,3 +17,23 @@
 ![Screenshot (525)](https://github.com/shekharj21/shekharj21/assets/54074505/f753896a-0717-4437-8d37-90a8a3121263)
 
 
+# 4. Download PGadmin
+
+- Download Pg admin and connect to S3 PostgreSQL.
+- Use Endpoint, Port number, Db name, Username and Password.
+
+# 5. Setup Informatica Cloud Account
+
+# 6. Add S3 Coonection
+- Open Informatica Cloud
+- Add connection for S3
+- Add Access Key
+- Add Secret Key
+![Screenshot (526)](https://github.com/shekharj21/shekharj21/assets/54074505/3bbf081c-cce3-4bee-86d8-c36a1336e417)
+
+
+# 7. Add Postgre Connection
+
+# 8.Add Mapping for Souce and Destination
+- Source : S3
+- Destination : PostgreSQL
