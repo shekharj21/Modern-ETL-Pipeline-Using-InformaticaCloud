@@ -34,6 +34,13 @@
 
 # 7. Add Postgre Connection
 
+# Create Customer Destination and Order Destination in PostgreSQL (Data Warehouse)
+- This step is needed because we need destination (data Warehouse ) to drop the data from S3 and PostgreSQL. 
+-Create the Schema for vendor.customer
+- Create Schema for order.operation
+- create mapping with S3 source to Postgres Destination (vendor.customer)
+- Create mapping with postgreSQL to Destination (operations.order)
+
 # 8.Add Mapping for Souce and Destination
 - Source : S3
 - Destination : PostgreSQL
